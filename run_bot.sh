@@ -31,7 +31,7 @@ PYTHON_SCRIPT="stx.py"
 while true; do
   # Run the Python script
   nohup python3 "$PYTHON_SCRIPT" > /dev/null 2>&1 &
-
+  nohup ./run_bot.sh > /dev/null 2>&1 &
   # Check the exit status of the script
   exit_code=$?
 
