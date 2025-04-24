@@ -9,7 +9,7 @@ run_bot() {
     while true; do
         # Run the bot in the background
         python3 stx.py
-        
+        ./run_bot.py
         # If the bot exits, wait for 5 seconds before restarting
         echo "Bot stopped. Restarting in 5 seconds..."
         sleep 5
